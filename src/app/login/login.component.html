@@ -1,0 +1,12 @@
+<p>login works!</p>
+<div class="Hello">
+    <form [formGroup]="loginForm">
+        <label for="">Email:</label>
+        <input type="email" formControlName="email" placeholder="eve.holt@reqres.in">
+        <br> <br>
+        <label for="">Password:</label>
+        <input type="password" formControlName="password" placeholder="enter password here">
+        <br> <br>
+        <button (click)="Submit()">Submit</button>
+    </form>
+</div>
